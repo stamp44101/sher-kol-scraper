@@ -19,9 +19,11 @@ Hashtag scraping mostly returns businesses, and AI hashtags (#aiinfluencer, #aim
 
 ## Vet each candidate
 
-- **Profile data:** run `apify/instagram-profile-scraper`. Work out ER as average (likes + comments) / followers over the latest posts; `likesCount = -1` means likes are hidden. Count how many recent posts carry a Thailand location tag, and note the date of the last post.
-- **Look:** download the 6 latest `displayUrl` images with curl (the IG CDN is reachable from the shell), make a contact sheet, and look at it. Judge fit with SHER, not looks: neutral palette, strapless/corset styling, and Casual/Beach/Resort or hi-fashion mood. Drop anyone mostly posting from outside Thailand (for human briefs), men, and accounts with no fashion angle.
-- **Tier:** A for a strong fit to contact first, B for possible, C for weak.
+Visual first. Followers, ER and likes never decide who gets picked or which tier she gets: record them in the sheet, but leave them out of the fit notes and the reasoning.
+
+- **Look:** download the 6 latest `displayUrl` images with curl (the IG CDN is reachable from the shell), make a contact sheet, and look at it. Picture her wearing SHER (strapless corset/bustier minis, neutral palette): does her frame, posture and way of posing carry it? Is the styling poised rather than overtly sexual? Does she fit the Casual/Beach/Resort or hi-fashion mood? Do not go by captions or bios. Drop anyone mostly posting from outside Thailand (for human briefs), men, and accounts with no fashion angle.
+- **Profile data:** run `apify/instagram-profile-scraper` for the sheet columns only: followers, ER (average likes + comments / followers; `likesCount = -1` means likes are hidden), Thailand location tags and the date of the last post.
+- **Tier (visual fit only):** A for a strong fit to contact first, B for possible, C for weak.
 
 ## Log it
 
@@ -37,5 +39,5 @@ Use the **KOL Scout** tab in "SHER Content Plan – TEST". Columns: Photo, Tier,
 - Cap every Apify call with `maxTotalChargeUsd` and tell Stamp what the round cost (about $1 per round so far).
 - Apify results are large: save them to a file and parse with Python, requesting only the fields you need.
 - Chrome `javascript_tool` output is cut off at about 1,000 characters, so read long lists in chunks.
-- In the reply, list the Tier A picks with one line each on why, say what was tried and didn't work, and give one next step (for example, drafting outreach).
+- In the reply, list the Tier A picks with one line each on why (visual reasons only), say what was tried and didn't work, and give one next step (for example, drafting outreach).
 - Hiring foreigners for paid work in Thailand raises work-permit questions. Gifting or affiliate deals carry less risk; flag this before anyone signs a paid contract.
