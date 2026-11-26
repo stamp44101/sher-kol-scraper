@@ -9,7 +9,7 @@ Find creators SHER could hire, check that they fit, and log them with photos in 
 
 ## Where to look (most useful first)
 
-1. **Snowball from Stamp's hand picks and yellow rows.** Free route: in Chrome on his logged-in IG, open a profile, click the "Similar accounts" button once (use `find` for its ref), then read the handles from the links. IG groups these by who follows whom, not by look, so the chain drifts toward big local celebrities after two hops; filter hard. Paid route: run `apify/instagram-scraper` (resultsType `posts`, about 30 per account) and collect `taggedUsers`, `mentions` and `coauthorProducers`. People with a similar style tag each other.
+1. **Snowball from Stamp's hand picks and yellow rows.** Free route: in Chrome on his logged-in IG, open a profile, click the "Similar accounts" button once (use `find` for its ref), then read the handles from the links. IG groups these by who follows whom, not by look, so the chain drifts toward local celebrities after two hops. Drop celebrities and stop following a branch once it turns into them. Paid route: run `apify/instagram-scraper` (resultsType `posts`, about 30 per account) and collect `taggedUsers`, `mentions` and `coauthorProducers`. People with a similar style tag each other.
 2. **Marketplaces such as Collabstr.** Use them for handles only. The public pages list about 60 creators per city. The slug on a Collabstr profile is often not the IG handle: open `collabstr.com/<slug>` (Chrome, same-origin `fetch`) and read the `instagram.com/...` link.
 3. **Venues and similar brands.** Collect tagged users from beach clubs, rooftop bars, and brands that use foreign models, then drop business accounts.
 4. **Model agency rosters.** One example is the agencies a shortlisted model is signed with.
@@ -31,6 +31,7 @@ Judge from her photos only. Captions, bios, followers, ER and likes never decide
 - Not striking enough to front a fashion brand.
 - Body that won't carry a fitted strapless mini: too muscular, too thin, too full, or so inconsistent across photos that you can't tell.
 - A facial feature that dominates every shot.
+- Celebrities: actresses, singers, pageant titleholders and other famous names. No celebrities at all, even if the look fits.
 
 **What makes him interested:** she looks like a model; the feed is chic (เก๋) or high-fashion; she can carry more than one style.
 
