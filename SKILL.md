@@ -27,20 +27,24 @@ Judge from her photos only. Captions, bios, followers, ER and likes never decide
 - Too revealing: a large bust or styling that reads adult-content, not fashion.
 - Looks older or tired.
 - Reads too Thai, or not Western at all, when the brief is "ดู ฝ" (Western-looking).
-- The feed has turned into family content: kids, husband, home life.
+- The feed has turned into family content: kids, husband, home life. Even a few kid/family posts count, and together with an older look it is a firm no.
 - Not striking enough to front a fashion brand.
 - Body that won't carry a fitted strapless mini: too muscular, too thin, too full, or so inconsistent across photos that you can't tell.
 - A facial feature that dominates every shot.
+- Her style is unclear: you can't picture her in SHER because the feed has no clear look (costumes, mixed themes). This is a cut even when nothing is revealing.
 - Celebrities: actresses, singers, pageant titleholders and other famous names. No celebrities at all, even if the look fits.
 
-**What makes him interested:** she looks like a model; the feed is chic (เก๋) or high-fashion; she can carry more than one style.
+**What makes him interested:** she looks like a model; the feed is chic (เก๋) or high-fashion; she can carry more than one style; she has worked with brands like SHER's (e.g. malimarea).
+
+**Soft minus, still yellow:** a sporty/active tone; a look that is only middling.
 
 **How to look:**
-1. **Read the feed's visual register, not its places.** Is it editorial/high-fashion, minimal studio, or casual phone-shot, and how consistent? Ask: would her photos sit next to SHER's ads and look like the same brand? Owning a corset is not the test.
-2. **Picture her in SHER** (strapless corset/bustier minis, neutral palette): frame, posture, how she poses, how restrained the styling is. Does it look expensive or does it look revealing? Think it through for each person; it is not a checklist.
-3. **Examples are a direction, not a template.** A reference account (e.g. @foamlumm) shows the feeling Stamp wants. Don't narrow it to one trait (e.g. "mixed-race face") and fill the list with that.
-4. **Compare against the seeds every time.** When snowballing, hold each candidate next to Stamp's hand-picked seeds, not just a minimum bar.
-5. Drop men, accounts with no fashion angle, private accounts, and (for human briefs) people mostly posting from outside Thailand.
+1. **Judge the latest 9-post grid as a whole.** That is what Stamp sees. Don't let one or two swimwear or sexy shots further down decide the verdict; ask what the grid as a whole says.
+2. **Read the feed's visual register, not its places.** Is it editorial/high-fashion, minimal studio, or casual phone-shot, and how consistent? Ask: would her photos sit next to SHER's ads and look like the same brand? Owning a corset is not the test.
+3. **Picture her in SHER** (strapless corset/bustier minis, neutral palette): frame, posture, how she poses, how restrained the styling is. Does it look expensive or does it look revealing? Think it through for each person; it is not a checklist.
+4. **Examples are a direction, not a template.** A reference account (e.g. @foamlumm) shows the feeling Stamp wants. Don't narrow it to one trait (e.g. "mixed-race face") and fill the list with that.
+5. **Compare against the seeds every time.** When snowballing, hold each candidate next to Stamp's hand-picked seeds, not just a minimum bar.
+6. Drop men, accounts with no fashion angle, private accounts, and (for human briefs) people mostly posting from outside Thailand.
 
 **Tier (visual fit only):** A = would look right in SHER today, contact first; B = possible with a styling brief; C = weak. Never re-tier Stamp's hand picks below A.
 
