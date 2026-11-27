@@ -1,0 +1,4 @@
+# per-run scratch: raw screenshots, capture log, built sheets (already published to the artifact)
+caps/
+out/
+log.tsv
