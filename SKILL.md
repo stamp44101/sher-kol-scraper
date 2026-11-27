@@ -32,6 +32,9 @@ Judge from her photos only. Captions, bios, followers, ER and likes never decide
 - Body that won't carry a fitted strapless mini: too muscular, too thin, too full, or so inconsistent across photos that you can't tell.
 - A facial feature that dominates every shot.
 - Her style is unclear: you can't picture her in SHER because the feed has no clear look (costumes, mixed themes). This is a cut even when nothing is revealing.
+- No sign she takes paid work: no brand tags, no collabs. Pretty and chic is not enough.
+- She already owns a fashion brand.
+- Pretty in a rich-girl (คุณหนู) way but not fashion.
 - Celebrities: actresses, singers, pageant titleholders and other famous names. No celebrities at all, even if the look fits.
 
 **What makes him interested:** she looks like a model; the feed is chic (เก๋) or high-fashion; she can carry more than one style; she has worked with brands like SHER's (e.g. malimarea).
@@ -45,6 +48,8 @@ Judge from her photos only. Captions, bios, followers, ER and likes never decide
 4. **Examples are a direction, not a template.** A reference account (e.g. @foamlumm) shows the feeling Stamp wants. Don't narrow it to one trait (e.g. "mixed-race face") and fill the list with that.
 5. **Compare against the seeds every time.** When snowballing, hold each candidate next to Stamp's hand-picked seeds, not just a minimum bar.
 6. Drop men, accounts with no fashion angle, private accounts, and (for human briefs) people mostly posting from outside Thailand.
+
+**Known blind spot:** Claude's read of "ดู ฝ" (Western-looking) does not match Stamp's. Treat any look label you give as a draft for him to correct, and say so.
 
 **Tier (visual fit only):** A = would look right in SHER today, contact first; B = possible with a styling brief; C = weak. Never re-tier Stamp's hand picks below A.
 
