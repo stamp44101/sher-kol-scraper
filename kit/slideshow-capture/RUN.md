@@ -25,3 +25,8 @@ The page already loads extra slideshows from `more-1.json` … `more-9.json` (sp
 7. Open the artifact in Chrome, search one new handle, hover it, confirm it plays.
 8. Remove the done handles from `remaining.txt`, commit and push.
 9. If handles remain and this was not already the 5th continuation run, create a one-shot scheduled task (send_later is not available in a new session — use create_trigger with run_once_at ~3 minutes ahead, same prompt) to continue. Tell the user (SendUserMessage) how many were added, how many remain, and any private accounts.
+
+## Notes from continuation run 1 (2026-11-27)
+- Published `more-1.json` (36 creators, sheets `sh/m1-0..2.jpg`). Next free index is 2. `continuation_runs.txt` counts runs done.
+- Chrome screenshot results now end with `Screenshot saved to: <path>` instead of `[Image source: …]`; that path is on the cloud workspace — treat it the same. Do NOT pass `scale` on the capture screenshot (it saves the small image).
+- The Artifact publish needs `file_path`: read `index.html` with action read + path, publish that unchanged file plus `files`; the first try is refused as "not viewed", the immediate retry goes through.
