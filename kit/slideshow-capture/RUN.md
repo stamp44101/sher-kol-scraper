@@ -24,7 +24,9 @@ The page already loads extra slideshows from `more-1.json` … `more-9.json` (sp
    `python3 make_sheets.py log.tsv out <N>` → `out/sh/m<N>-*.jpg` + `out/more-<N>.json`. Copy `out/` under /home/claude if needed, then `publish_files` (patch, base_version from `get_artifact`) with the sheet files as `sh/...` and `more-<N>.json` at the root. Do not touch index.html or other files.
 7. Open the artifact in Chrome, search one new handle, hover it, confirm it plays.
 8. Remove the done handles from `remaining.txt`, commit and push.
-9. If handles remain and this was not already the 5th continuation run, create a one-shot scheduled task (send_later is not available in a new session — use create_trigger with run_once_at ~3 minutes ahead, same prompt) to continue. Tell the user (SendUserMessage) how many were added, how many remain, and any private accounts.
+9. Do NOT schedule another run (scheduled runs can't create tasks without approval; the next runs are already scheduled). If `remaining.txt` is empty when you start, just tell the user it's all done and stop. Tell the user (SendUserMessage) how many were added, how many remain, and any private accounts.
+
+Pace: keep going until the list is done or the save cap is hit (3 screenshots in a row with no saved path). Do NOT stop early because the run feels long — publish in batches of ~30 (one more-<N>.json per batch, next free N) so nothing is lost if the run ends.
 
 ## Notes from continuation run 1 (2026-11-27)
 - Published `more-1.json` (36 creators, sheets `sh/m1-0..2.jpg`). Next free index is 2. `continuation_runs.txt` counts runs done.
