@@ -32,3 +32,8 @@ Pace: keep going until the list is done or the save cap is hit (3 screenshots in
 - Published `more-1.json` (36 creators, sheets `sh/m1-0..2.jpg`). Next free index is 2. `continuation_runs.txt` counts runs done.
 - Chrome screenshot results now end with `Screenshot saved to: <path>` instead of `[Image source: …]`; that path is on the cloud workspace — treat it the same. Do NOT pass `scale` on the capture screenshot (it saves the small image).
 - The Artifact publish needs `file_path`: read `index.html` with action read + path, publish that unchanged file plus `files`; the first try is refused as "not viewed", the immediate retry goes through.
+
+## Notes from continuation run 2 (2026-11-27)
+- Published `more-2.json` … `more-7.json` (34+30+30+30+30+19 = 173 creators). `remaining.txt` is now empty — the list is done. Only `more-8.json` is still free.
+- No private / unavailable accounts in this batch. trankhoa.official had one hidden post (zero-size tile), dropped from its rects.
+- One browser_batch of 5 profiles lost its connection mid-call and nothing was saved; batches of 3–4 profiles were steadier after that.
