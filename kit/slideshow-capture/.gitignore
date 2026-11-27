@@ -2,3 +2,4 @@
 caps/
 out/
 log.tsv
+log-*.tsv
