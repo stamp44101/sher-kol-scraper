@@ -62,6 +62,7 @@ Use the **KOL Scout** tab in "SHER Content Plan – TEST". Columns: Photo, Tier,
 - **Photo:** pick the one image that shows why she fits (a fitted or strapless look, a clean full-body shot), not simply her latest post; avoid group shots, swimwear and close-up selfies. Shrink it to about 360px and upload it to the Drive folder "SHER influencer photos" (shared as anyone-with-link). Use `=IMAGE("https://drive.google.com/uc?export=view&id=<fileId>")`. Do not hotlink IG URLs, because they expire.
 - **Formats:** copy the format of an existing new-candidate row onto new rows, set row height 180, and use the Deal status dropdown (To do / DM sent / In talks / Deal closed / Declined).
 - **Allow access:** the first `IMAGE()` in a spreadsheet shows `#REF!` until someone clicks Allow access in the browser.
+- **Match photo to handle:** when saving screenshots, copy each one by the exact file path the tool returns. Sorting the temp folder by time swapped pairs of photos once.
 - **Check:** open the tab to make sure the photos show.
 
 ## Working notes
